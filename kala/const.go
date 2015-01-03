@@ -16,7 +16,7 @@ var (
 	Nadi             time.Duration = 60 * Vighati
 	Danda            time.Duration = 60 * Vighati
 	Muhurta          time.Duration = 2 * Ghati
-	NaksatraAhoratam               = 30 * Muhurta
+	NaksatraAhoratam time.Duration = 30 * Muhurta
 
 	// Alternate System
 	TrutiAlt            time.Duration = time.Nanosecond * 35.5
